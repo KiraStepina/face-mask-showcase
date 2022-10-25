@@ -107,7 +107,7 @@ function App() {
         <canvas id="overlay" />
       </div>
       <div className="Mask-container">
-        <ImageList sx={{ width: 500, height: 550 }} cols={3} rowHeight={164}>
+        <ImageList sx={{ height: 550 }} cols={9} rowHeight={80}>
           {maskListSvg.map((item) => (
             <ImageListItem key={item.img} onClick={() => setMask(item.key)}>
               <img

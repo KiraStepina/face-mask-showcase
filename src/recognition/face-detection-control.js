@@ -9,7 +9,7 @@ const selectedFaceDetector = TINY_FACE_DETECTOR
 const minConfidence = 0.5
 
 // tiny_face_detector options
-const inputSize = 320
+const inputSize = 512
 const scoreThreshold = 0.5
 
 export function getFaceDetectorOptions() {

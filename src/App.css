@@ -7,9 +7,6 @@
 
 .Mask-container {
     display: flex;
-    width: 500px;
-    margin-top: 40px;
-    margin-right: 40px;
 }
 
 video {
@@ -25,5 +22,5 @@ canvas {
 
 .App {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
